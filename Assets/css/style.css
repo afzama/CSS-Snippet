@@ -1,0 +1,29 @@
+*{
+    background-color: darkgray;
+}
+
+header {text-align: center;}
+
+header h1{color:purple}
+
+main{
+    margin: top 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section{
+    border-style: dashed;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+}
+.big_box{
+    color: rgb(120, 38, 187);
+}
+.small_box{
+    color: rgb(174, 49, 174)
+}
